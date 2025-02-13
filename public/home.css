@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    place-items: center;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+h1 {
+    color: rgb(223, 155, 52);
+    margin-top: 20vh;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333; /* Darker text color for better readability */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(223, 155, 52);
+    font-weight: bold;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
